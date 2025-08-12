@@ -11,7 +11,7 @@ import CustomerBalances from "../../../components/for-customers/customer-balance
 import CustomerTransaction from "../../../components/for-customers/customers-transaction";
 import CustomerAuditLog from "../../../components/for-customers/customer-auditLog";
 //import images
-import arrowLeft from "../../../src/assets/arrow-left-button.png";
+import arrowLeft from "/assets/arrow-left-button.png";
 const navigation = [
   "Details",
   "Balances",
