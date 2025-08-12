@@ -30,7 +30,7 @@ function CustomerStatus() {
         >
           <p>Status</p>
           <img
-            src="./src/assets/plus-rec.png"
+            src="/assets/plus-rec.png"
             className="w-[15px] h-[15px]"
             alt="add"
           />

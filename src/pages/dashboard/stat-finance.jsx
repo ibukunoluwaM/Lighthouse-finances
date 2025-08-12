@@ -28,10 +28,10 @@ export default function StatFinance() {
     <div className="mt-4 bg-white rounded-lg py-2 px-4">
       <h2 className="flex justify-between items-center my-3">
         <span className="font-bold text-sm">
-          Loan Subscribers <img src="./src/assets/Info-icon.png" alt="" />
+          Loan Subscribers <img src="/assets/Info-icon.png" alt="" />
         </span>
         <span className="text-[#0F8ECD] text-sm">
-          <img src="./src/assets/file-text.png" alt="" />
+          <img src="/assets/file-text.png" alt="" />
         </span>
       </h2>
       <p className="text-2xl font-bold">2,122</p>
@@ -67,10 +67,10 @@ export default function StatFinance() {
         <p className="text-sm text-[#666666] ">Showing 4 of 4 </p>
         <div className="">
           <button className="bg-white mr-2 border-gray-300  cursor-pointer rounded-md p-3 outline-none">
-            <img src="./src/assets/arrow-left.png" alt="arrow-left" />
+            <img src="/assets/arrow-left.png" alt="arrow-left" />
           </button>
           <button className="bg-white border-gray-300 rounded-md cursor-pointer p-3 outline-none">
-            <img src="./src/assets/arrow-right.png" alt="arrow-left" />
+            <img src="/assets/arrow-right.png" alt="arrow-left" />
           </button>
         </div>
       </div>

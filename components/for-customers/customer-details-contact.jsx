@@ -19,7 +19,7 @@ function CustomerDetailContact({ selectedCustomer }) {
         <span className="flex gap-2 cursor-pointer" onClick={openModalForm}>
           <p className="text-sm text-[#0F8ECD] items-center">Edit</p>
           <img
-            src="../src/assets/edit-3.png"
+            src="/assets/edit-3.png"
             className="w-[20px] h-[20px]"
             alt="edit"
           />
@@ -43,7 +43,7 @@ function CustomerDetailContact({ selectedCustomer }) {
                 {selectedCustomer.email}
                 <img
                   className="cursor-pointer"
-                  src="../src/assets/copy.png"
+                  src="/assets/copy.png"
                   alt=""
                 />
               </span>
@@ -87,7 +87,7 @@ function CustomerDetailContact({ selectedCustomer }) {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Edit Contact Information</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}

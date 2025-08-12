@@ -47,14 +47,14 @@ function Customers() {
         <h2 className="text-2xl my-6 font-bold">Customers</h2>
         <button className="cursor-pointer bg-[#0F8ECD] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
           <span>Export</span>
-          <img src="./src/assets/import.png" alt="import" />
+          <img src="/assets/import.png" alt="import" />
         </button>
       </div>
 
       <div className="flex gap-4 my-3 ">
         {/* search bar */}
         <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg border border-gray-300">
-          <img src="./src/assets/leadingIcon.png" alt="search" className="" />
+          <img src="/assets/leadingIcon.png" alt="search" className="" />
           <input
             type="search"
             className="bg-transparent w-[100%] border-none outline-none pl-[4px]"
@@ -133,10 +133,10 @@ function Customers() {
         <div className="flex items-center">
           <p className="font-medium mr-4 text-sm">Page 1 of 46</p>
           <button className="bg-white mr-2 border-gray-300  cursor-pointer rounded-md p-3 outline-none">
-            <img src="./src/assets/arrow-left.png" alt="arrow-left" />
+            <img src="/assets/arrow-left.png" alt="arrow-left" />
           </button>
           <button className="bg-white border-gray-300 rounded-md cursor-pointer p-3 outline-none">
-            <img src="./src/assets/arrow-right.png" alt="arrow-left" />
+            <img src="/assets/arrow-right.png" alt="arrow-left" />
           </button>
         </div>
       </div>

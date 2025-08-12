@@ -80,7 +80,7 @@ function LoginPage() {
             className="w-full pl-2 border-none focus:outline-none py-4"
           />
           <img
-            src="./src/assets/trailingIcon.svg"
+            src="/assets/trailingIcon.svg"
             alt=""
             className="cursor-pointer"
             onClick={() => setVisible(!visible)}
@@ -91,7 +91,7 @@ function LoginPage() {
         {errors && (
           <div className="flex bg-[#FFE8E6] border border-[#E94A3F] rounded-md mt-4 border-[2px] p-2">
             <img
-              src="./src/assets/cross-circle.png"
+              src="/assets/cross-circle.png"
               alt=""
               className="w-[20px] h-[20px] inline-block mt-2 mx-2"
             />

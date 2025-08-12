@@ -97,7 +97,7 @@ function CustomerDetail() {
         </div>
         <div className=" cursor-pointer flex justify-center items-center bg-white p-2 rounded-lg">
           <img
-            src="../src/assets/more-horiz.png"
+            src="/assets/more-horiz.png"
             alt="show-more"
             onClick={showMore}
           />

@@ -14,7 +14,7 @@ export const courses = [
     rate: "76%",
     date: "Apr 10, 2025 12:32 PM",
     status: "Published",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
 
   {
@@ -25,7 +25,7 @@ export const courses = [
     rate: "70%",
     date: "Apr 10, 2025 12:32 PM",
     status: "Published",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
 
   {
@@ -36,7 +36,7 @@ export const courses = [
     rate: "90%",
     date: "Apr 10, 2025 12:32 PM",
     status: "Published",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
 
   {
@@ -47,7 +47,7 @@ export const courses = [
     rate: "54%",
     date: "Apr 10, 2025 12:32 PM",
     status: "Published",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
 
   {
@@ -58,7 +58,7 @@ export const courses = [
     rate: "-",
     date: "Apr 10, 2025 12:32 PM",
     status: "Unlisted",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
 
   {
@@ -69,7 +69,7 @@ export const courses = [
     rate: "59%",
     date: "Apr 10, 2025 12:32 PM",
     status: "Published",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
   {
     id: 7,
@@ -79,7 +79,7 @@ export const courses = [
     rate: "-",
     date: "Apr 10, 2025 12:32 PM",
     status: "Unlisted",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
 
   {
@@ -90,7 +90,7 @@ export const courses = [
     rate: "80%",
     date: "Apr 10, 2025 12:32 PM",
     status: "Published",
-    img: "../src/assets/image-course2.png",
+    img: "/assets/image-course2.png",
   },
 ];
 
@@ -111,13 +111,13 @@ function Learn() {
           onClick={() => setFormOpen(true)}
         >
           <span>Add course</span>
-          <img src="./src/assets/white-plus.png" alt="add" />
+          <img src="/assets/white-plus.png" alt="add" />
         </button>
       </div>
 
       <div className="flex gap-3">
         <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg border border-gray-300">
-          <img src="./src/assets/leadingIcon.png" alt="search" className="" />
+          <img src="/assets/leadingIcon.png" alt="search" className="" />
           <input
             type="search"
             className="bg-transparent w-[100%] border-none outline-none pl-[4px]"
@@ -175,10 +175,10 @@ function Learn() {
         <div className="flex items-center">
           <p className="font-medium mr-4 text-sm">Page 1 of 1</p>
           <button className="bg-white mr-2 border-gray-300  cursor-pointer rounded-md p-3 outline-none">
-            <img src="./src/assets/arrow-left.png" alt="arrow-left" />
+            <img src="/assets/arrow-left.png" alt="arrow-left" />
           </button>
           <button className="bg-white border-gray-300 rounded-md cursor-pointer p-3 outline-none">
-            <img src="./src/assets/arrow-right.png" alt="arrow-left" />
+            <img src="/assets/arrow-right.png" alt="arrow-left" />
           </button>
         </div>
       </div>
@@ -196,7 +196,7 @@ function Learn() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Add Course</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}

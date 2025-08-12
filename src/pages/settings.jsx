@@ -37,7 +37,7 @@ function Settings() {
           <p className="text-[#666666] my-1 text-sm">Max photo size 1 MB</p>
 
           <div className="flex items-center gap-4 my-3 cursor-pointer">
-            <img src="../src/assets/image.png" alt="" />
+            <img src="/assets/image.png" alt="" />
             <span className="text-[#0F8ECD] bg-[rgba(15,142,205,0.1)] p-1 text-sm rounded-full">
               Upload Photo
             </span>
@@ -147,7 +147,7 @@ function Settings() {
 
 {/* firefox */}
                     <div className="flex items-center justify-between gap-2">
-                      <img src="../src/assets/laptop.png" alt="" />
+                      <img src="/assets/laptop.png" alt="" />
 
                       <div className="flex-1 text-sm">
                         <p className="mb-3 text-[#0F8ECD] ">Firefox on windows  <span className="bg-[#F4F3FF] text-[#5925DC] p-2 rounded-full text-xs">This device</span></p>
@@ -161,7 +161,7 @@ function Settings() {
 
                     {/* chrome */}
                                         <div className=" mt-2 flex items-center justify-between gap-2">
-                      <img src="../src/assets/laptop.png" alt="" />
+                      <img src="/assets/laptop.png" alt="" />
 
                       <div className="flex-1 text-sm">
                         <p className="mb-3 text-[#0F8ECD] ">Chrome on Mac </p>

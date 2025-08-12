@@ -26,7 +26,7 @@ function LessonDetails() {
             className=" w-[35px] h-[35px] bg-white p-2 rounded-md cursor-pointer"
             onClick={handleGoBack}
           >
-            <img src="../../../src/assets/arrow-left-button.png" alt="" />
+            <img src="../..//assets/arrow-left-button.png" alt="" />
           </div>
           <div className="w-[100%] flex items-center justify-between gap-3">
             <div className="flex-1 flex gap-3">
@@ -58,7 +58,7 @@ function LessonDetails() {
             >
               <p className="text-sm text-[#0F8ECD] items-center">Edit</p>
               <img
-                src="../../../src/assets/edit-3.png"
+                src="../..//assets/edit-3.png"
                 className="w-[20px] h-[20px]"
                 alt="edit"
               />
@@ -115,7 +115,7 @@ function LessonDetails() {
                 Change photo
               </p>
               <img
-                src="../../../src/assets/edit-3.png"
+                src="../..//assets/edit-3.png"
                 className="w-[20px] h-[20px]"
                 alt="edit"
               />
@@ -124,7 +124,7 @@ function LessonDetails() {
 
           <div>
             <img
-              src="../../../src/assets/image-course.png"
+              src="../..//assets/image-course.png"
               alt="course thumbnail"
               className="p-2 my-2"
             />
@@ -141,7 +141,7 @@ function LessonDetails() {
           >
             <p className="text-sm text-[#0F8ECD] items-center">Add section</p>
             <img
-              src="../../../src/assets/plus-blue.png"
+              src="../..//assets/plus-blue.png"
               alt="add"
               className="w-[20px] h-[20px]"
             />
@@ -224,7 +224,7 @@ function LessonDetails() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Edit Course</span>
               <img
-                src="../../../src/assets/close-icon.png"
+                src="../..//assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={() => setEditForm(false)}
@@ -277,7 +277,7 @@ function LessonDetails() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Add Lesson Section</span>
               <img
-                src="../../../src/assets/close-icon.png"
+                src="../..//assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={() => setAddLesson(false)}
@@ -288,7 +288,7 @@ function LessonDetails() {
               onClick={() => setAddLesson(false)}
             >
               <p className="flex-1">Text Area</p>
-              <img src="../../../src/assets/lefttt.png" alt="more" />
+              <img src="../..//assets/lefttt.png" alt="more" />
             </div>
 
             <div
@@ -296,7 +296,7 @@ function LessonDetails() {
               onClick={() => setAddLesson(false)}
             >
               <p className="flex-1">Video URL</p>
-              <img src="../../../src/assets/lefttt.png" alt="more" />
+              <img src="../..//assets/lefttt.png" alt="more" />
             </div>
 
             <div
@@ -304,7 +304,7 @@ function LessonDetails() {
               onClick={() => setAddLesson(false)}
             >
               <p className="flex-1">Image</p>
-              <img src="../../../src/assets/lefttt.png" alt="more" />
+              <img src="../..//assets/lefttt.png" alt="more" />
             </div>
           </div>
         </div>
@@ -319,7 +319,7 @@ function LessonDetails() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-bold">Delete Course</span>
               <img
-                src="../../../src/assets/close-icon.png"
+                src="../..//assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={() => setConfirmDelete(false)}

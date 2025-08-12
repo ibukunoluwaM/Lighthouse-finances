@@ -71,7 +71,7 @@ function TeamMgtRoles() {
         <div className="flex gap-4 ">
           <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg border border-gray-300">
             <img
-              src="../src/assets/leadingIcon.png"
+              src="/assets/leadingIcon.png"
               alt="search"
               className=""
             />
@@ -85,7 +85,7 @@ function TeamMgtRoles() {
         </div>
         <button className="cursor-pointer bg-[#0F8ECD] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
           <span onClick={() => setAddRole(true)}>Add Role</span>
-          <img src="../src/assets/white-plus.png" alt="add" />
+          <img src="/assets/white-plus.png" alt="add" />
         </button>
       </div>
 
@@ -137,7 +137,7 @@ function TeamMgtRoles() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Add Role</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}
@@ -381,10 +381,10 @@ function TeamMgtRoles() {
         <div className="flex items-center">
           <p className="font-medium mr-4 text-sm">Page 1 of 1`</p>
           <button className="bg-white mr-2 border-gray-300  cursor-pointer rounded-md p-3 outline-none">
-            <img src="./src/assets/arrow-left.png" alt="arrow-left" />
+            <img src="/assets/arrow-left.png" alt="arrow-left" />
           </button>
           <button className="bg-white border-gray-300 rounded-md cursor-pointer p-3 outline-none">
-            <img src="./src/assets/arrow-right.png" alt="arrow-left" />
+            <img src="/assets/arrow-right.png" alt="arrow-left" />
           </button>
         </div>
       </div>

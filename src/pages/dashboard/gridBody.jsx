@@ -38,16 +38,16 @@ function GridBody() {
           <div className="mt-4 px-6 py-2 flex justify-between items-center">
             <div className="flex gap-3 items-center">
               <h2>Active Users</h2>
-              <img src="./src/assets/Info icon.png" alt="info" />
+              <img src="/assets/Info icon.png" alt="info" />
             </div>
-            <img src="./src/assets/users.png" alt="users" />
+            <img src="/assets/users.png" alt="users" />
           </div>
 
           {/* determines whch card content to show */}
           {/* for all stats */}
           {statistics === "All stats" && (
             <img
-              src="./src/assets/card content.png"
+              src="/assets/card content.png"
               alt="card"
               className="w-[100%]"
             />
@@ -56,7 +56,7 @@ function GridBody() {
 
           {statistics === "Finance" && (
             <img
-              src="./src/assets/card content-loan.png"
+              src="/assets/card content-loan.png"
               alt="card"
               className="w-[100%]"
             />
@@ -65,7 +65,7 @@ function GridBody() {
 
           {statistics === "Capital" && (
             <img
-              src="./src/assets/card content-capital.png"
+              src="/assets/card content-capital.png"
               alt="card"
               className="w-[100%]"
             />
@@ -74,7 +74,7 @@ function GridBody() {
 
           {statistics === "Asset Management" && (
             <img
-              src="./src/assets/card content-assets.png"
+              src="/assets/card content-assets.png"
               alt="card"
               className="w-[100%]"
             />

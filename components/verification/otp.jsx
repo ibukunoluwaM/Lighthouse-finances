@@ -38,7 +38,7 @@ function Otp() {
   return (
     <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-[#0F8ECD] to-[#084767]">
       <span>
-        <img src="./src/assets/Logo.png" alt="Logo" className="block mb-12" />
+        <img src="/assets/Logo.png" alt="Logo" className="block mb-12" />
       </span>
 
       <form onSubmit={(e)=> e.preventDefault()} className="max-w-lg bg-white p-8 mt-4 w-full rounded-lg">

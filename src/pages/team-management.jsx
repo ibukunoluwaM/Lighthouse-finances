@@ -28,7 +28,7 @@ function TeamManagement() {
       twoFA: "Disabled",
       lastLogged: "Today",
       email: "morounke@lighthousecapital.ng",
-      img: "../../src/assets/menu-horiz.png",
+      img: "..//assets/menu-horiz.png",
     },
 
     {
@@ -39,7 +39,7 @@ function TeamManagement() {
       twoFA: "Active",
       lastLogged: "Apr 9, 2025 8:15am",
       email: "timipre@lighthousecapital.ng",
-      img: "../../src/assets/menu-horiz.png",
+      img: "..//assets/menu-horiz.png",
     },
 
     {
@@ -50,7 +50,7 @@ function TeamManagement() {
       twoFA: "Active",
       lastLogged: "Today",
       email: "aisha@lighthousecapital.ng",
-      img: "../../src/assets/menu-horiz.png",
+      img: "..//assets/menu-horiz.png",
     },
 
     {
@@ -61,7 +61,7 @@ function TeamManagement() {
       twoFA: "Disabled",
       lastLogged: "Apr 6, 2025 9:15am",
       email: "werinipre@lighthousecapital.ng",
-      img: "../../src/assets/menu-horiz.png",
+      img: "..//assets/menu-horiz.png",
     },
 
     {
@@ -72,7 +72,7 @@ function TeamManagement() {
       twoFA: "-",
       lastLogged: "-",
       email: "adanma@lighthousecapital.ng",
-      img: "../../src/assets/menu-horiz.png",
+      img: "..//assets/menu-horiz.png",
     },
   ];
 
@@ -141,7 +141,7 @@ function TeamManagement() {
             <div className="flex gap-4 ">
               <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg border border-gray-300">
                 <img
-                  src="../src/assets/leadingIcon.png"
+                  src="/assets/leadingIcon.png"
                   alt="search"
                   className=""
                 />
@@ -159,7 +159,7 @@ function TeamManagement() {
 
             <button className="cursor-pointer bg-[#0F8ECD] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
               <span onClick={() => setAddMember(true)}>Add Member</span>
-              <img src="./src/assets/white-plus.png" alt="add" />
+              <img src="/assets/white-plus.png" alt="add" />
             </button>
           </div>
 
@@ -254,7 +254,7 @@ function TeamManagement() {
                               Edit Member Role
                             </span>
                             <img
-                              src="../src/assets/close-icon.png"
+                              src="/assets/close-icon.png"
                               alt="close"
                               className="cursor-pointer"
                               onClick={closeForm}
@@ -337,7 +337,7 @@ function TeamManagement() {
                     Add Member
                   </span>
                   <img
-                    src="../src/assets/close-icon.png"
+                    src="/assets/close-icon.png"
                     alt="close"
                     className="cursor-pointer"
                     onClick={closeForm}
@@ -402,7 +402,7 @@ function TeamManagement() {
                     Deactivate member
                   </span>
                   <img
-                    src="../src/assets/close-icon.png"
+                    src="/assets/close-icon.png"
                     alt="close"
                     className="cursor-pointer"
                     onClick={closeForm}
@@ -433,10 +433,10 @@ function TeamManagement() {
             <div className="flex items-center">
               <p className="font-medium mr-4 text-sm">Page 1 of 1`</p>
               <button className="bg-white mr-2 border-gray-300  cursor-pointer rounded-md p-3 outline-none">
-                <img src="./src/assets/arrow-left.png" alt="arrow-left" />
+                <img src="/assets/arrow-left.png" alt="arrow-left" />
               </button>
               <button className="bg-white border-gray-300 rounded-md cursor-pointer p-3 outline-none">
-                <img src="./src/assets/arrow-right.png" alt="arrow-left" />
+                <img src="/assets/arrow-right.png" alt="arrow-left" />
               </button>
             </div>
           </div>

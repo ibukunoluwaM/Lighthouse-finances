@@ -49,7 +49,7 @@ export default function Example() {
           className="flex items-center py-2 px-4 gap-2 rounded-lg bg-[#0F8ECD1A] border-none cursor-pointer"
         >
           <span className="text-[#0F8ECD]">{statistics}</span>
-          <img src="./src/assets/chevron-down (1).png" alt="icon" />
+          <img src="/assets/chevron-down (1).png" alt="icon" />
         </button>
 
         {statIsOpen && (
@@ -64,7 +64,7 @@ export default function Example() {
               >
                 <span> {stat}</span>
                 {statistics === stat && (
-                  <img src="./src/assets/check-circle-2.png" alt="icon" />
+                  <img src="/assets/check-circle-2.png" alt="icon" />
                 )}
               </li>
             ))}
@@ -80,7 +80,7 @@ export default function Example() {
             className="flex items-center py-2 px-4 gap-2 rounded-lg bg-[#0F8ECD1A] border-none cursor-pointer"
           >
             <span className="text-[#0F8ECD]">{selectedTime}</span>
-            <img src="./src/assets/chevron-down (1).png" alt="icon" />
+            <img src="/assets/chevron-down (1).png" alt="icon" />
           </button>
 
           {timeIsOpen && (
@@ -94,7 +94,7 @@ export default function Example() {
                 >
                   <span className="mr-2"> {t}</span>
                   {selectedTime === t && (
-                    <img src="./src/assets/check-circle-2.png" alt="icon" />
+                    <img src="/assets/check-circle-2.png" alt="icon" />
                   )}
                 </li>
               ))}

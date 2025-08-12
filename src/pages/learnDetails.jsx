@@ -56,7 +56,7 @@ function LearnDetails() {
             className=" w-[35px] h-[35px] bg-white p-2 rounded-md cursor-pointer"
             onClick={handleGoBack}
           >
-            <img src="../../src/assets/arrow-left-button.png" alt="" />
+            <img src="..//assets/arrow-left-button.png" alt="" />
           </div>
           <div className="w-[100%] flex items-center justify-between gap-3">
             <div className="flex-1 flex gap-3">
@@ -99,7 +99,7 @@ function LearnDetails() {
             >
               <p className="text-sm text-[#0F8ECD] items-center">Edit</p>
               <img
-                src="../src/assets/edit-3.png"
+                src="/assets/edit-3.png"
                 className="w-[20px] h-[20px]"
                 alt="edit"
               />
@@ -164,7 +164,7 @@ function LearnDetails() {
                 Change photo
               </p>
               <img
-                src="../src/assets/edit-3.png"
+                src="/assets/edit-3.png"
                 className="w-[20px] h-[20px]"
                 alt="edit"
               />
@@ -175,7 +175,7 @@ function LearnDetails() {
             <img
               src={
                 selectedCourse.status === "Unlisted"
-                  ? "../../src/assets/blacklist.png"
+                  ? "..//assets/blacklist.png"
                   : selectedCourse.img
               }
               alt="course thumbnail"
@@ -195,7 +195,7 @@ function LearnDetails() {
           >
             <p className="text-sm text-[#0F8ECD] items-center">Add lessons</p>
             <img
-              src="../src/assets/plus-blue.png"
+              src="/assets/plus-blue.png"
               alt="add"
               className="w-[20px] h-[20px]"
             />
@@ -247,7 +247,7 @@ function LearnDetails() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Edit Course</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={() => setOpenEdit(false)}
@@ -308,7 +308,7 @@ function LearnDetails() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Edit Course</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={() => setAddLesson(false)}
@@ -356,7 +356,7 @@ function LearnDetails() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-bold">Unlist Course</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={() => setConfirmDelete(false)}

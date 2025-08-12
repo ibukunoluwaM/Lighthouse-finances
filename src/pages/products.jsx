@@ -139,7 +139,7 @@ function Products() {
         <h2 className="text-2xl my-6 font-bold">Products</h2>
         <button className="cursor-pointer bg-[#0F8ECD] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
           <span onClick={openForm}>Add Product</span>
-          <img src="./src/assets/white-plus.png" alt="add" />
+          <img src="/assets/white-plus.png" alt="add" />
         </button>
       </div>
       {/* navigating links */}
@@ -207,7 +207,7 @@ function Products() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Add Product</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}
@@ -284,7 +284,7 @@ function Products() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-bold text-lg">Product Details</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}
@@ -382,7 +382,7 @@ function Products() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Edit Product</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}

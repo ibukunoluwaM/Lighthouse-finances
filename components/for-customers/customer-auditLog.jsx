@@ -126,7 +126,7 @@ function CustomerAuditLog() {
       <div className="flex gap-3">
         <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg">
           <img
-            src="../../src/assets/leadingIcon.png"
+            src="..//assets/leadingIcon.png"
             alt="search"
             className=""
           />
@@ -144,7 +144,7 @@ function CustomerAuditLog() {
         >
           <p>Performed By</p>
           <img
-            src=".././src/assets/plus-rec.png"
+            src="..//assets/plus-rec.png"
             className="w-[15px] h-[15px]"
             alt="add"
           />
@@ -183,7 +183,7 @@ function CustomerAuditLog() {
         >
           <p>Status</p>
           <img
-            src=".././src/assets/plus-rec.png"
+            src="..//assets/plus-rec.png"
             className="w-[15px] h-[15px]"
             alt="add"
           />
@@ -337,7 +337,7 @@ function CustomerAuditLog() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-bold text-lg">Log Details</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}
@@ -422,7 +422,7 @@ function CustomerAuditLog() {
                 IPH-9C3B8D5F-7A12-4D6E-92E1-F45A3D7B8
                 <img
                   className="cursor-pointer ml-2"
-                  src="../src/assets/copy.png"
+                  src="/assets/copy.png"
                   alt=""
                 />
               </span>
@@ -467,7 +467,7 @@ function CustomerAuditLog() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Blacklist user device</span>
               <img
-                src="../src/assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={closeForm}

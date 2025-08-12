@@ -24,7 +24,7 @@ function LoanDetails() {
           className=" w-[35px] h-[35px] bg-white p-2 rounded-md cursor-pointer"
           onClick={() => navigate(-1)}
         >
-          <img src="../../src/assets/arrow-left-button.png" alt="" />
+          <img src="..//assets/arrow-left-button.png" alt="" />
         </div>
 
         <div className="flex flex-col">

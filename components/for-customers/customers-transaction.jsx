@@ -53,10 +53,10 @@ function CustomerTransaction() {
         <div className="flex gap-2 items-center">
           <p>Page 1 of 1</p>
           <button className="bg-white mr-2 border-gray-300  cursor-pointer rounded-md p-3 outline-none">
-            <img src="../src/assets/arrow-left.png" alt="arrow-left" />
+            <img src="/assets/arrow-left.png" alt="arrow-left" />
           </button>
           <button className="bg-white border-gray-300 rounded-md cursor-pointer p-3 outline-none">
-            <img src="../src/assets/arrow-right.png" alt="arrow-left" />
+            <img src="/assets/arrow-right.png" alt="arrow-left" />
           </button>
         </div>
       </div>

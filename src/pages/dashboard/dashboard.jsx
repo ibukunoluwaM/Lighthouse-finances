@@ -17,7 +17,7 @@ function Dashboard() {
       <div className="flex justify-between gap-4">
         {/* 1 */}
         <div className="flex items-center gap-4  bg-white p-4 rounded-xl w-[25%]">
-          <img src="./src/assets/icon-blue.png" alt="icon" />
+          <img src="/assets/icon-blue.png" alt="icon" />
           <div>
             <span className="text-md">Total Revenue</span>
             <p className="text-xl font-bold mt-2 text-[#666666]">
@@ -28,7 +28,7 @@ function Dashboard() {
 
         {/* 2 */}
         <div className=" bg-white flex items-center gap-4 p-4 rounded-xl w-[25%]">
-          <img src="./src/assets/Icon (1).png" alt="icon" />
+          <img src="/assets/Icon (1).png" alt="icon" />
           <div>
             <span className="text-md">Total Transactions</span>
             <p className="text-xl font-bold mt-2 text-[#666666]">8,421</p>
@@ -37,7 +37,7 @@ function Dashboard() {
 
         {/* 3*/}
         <div className=" bg-white flex items-center gap-4 p-4 rounded-xl w-[25%]">
-          <img src="./src/assets/server-iconn.png" alt="icon" />
+          <img src="/assets/server-iconn.png" alt="icon" />
           <div>
             <span className="text-md">Assets Managed</span>
             <p className="text-xl font-bold mt-2 text-[#666666]">1,329</p>
@@ -46,7 +46,7 @@ function Dashboard() {
 
         {/* 4 */}
         <div className=" bg-white flex items-center gap-4 p-4 rounded-xl w-[25%]">
-          <img src="./src/assets/open-book.png" alt="icon" />
+          <img src="/assets/open-book.png" alt="icon" />
           <div>
             <span className="text-md">Learning Completion %</span>
             <p className="text-xl font-bold mt-2 text-[#666666]">74%</p>

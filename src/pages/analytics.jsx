@@ -12,7 +12,7 @@ function Analytics() {
         <h2 className="text-2xl my-6 font-bold">Analytics</h2>
         <button className="cursor-pointer bg-[#0F8ECD] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
           <span>Export</span>
-          <img src="./src/assets/white-plus.png" alt="add" />
+          <img src="/assets/white-plus.png" alt="add" />
         </button>
       </div>
 
@@ -29,11 +29,11 @@ function Analytics() {
           <div className="mt-4 px-6 py-2 flex justify-between items-center">
             <div className="flex gap-3 items-center">
               <h2>Revenue</h2>
-              <img src="./src/assets/Info icon.png" alt="info" />
+              <img src="/assets/Info icon.png" alt="info" />
             </div>
-            <img src="./src/assets/dollar.png" alt="users" />
+            <img src="/assets/dollar.png" alt="users" />
           </div>
-          <img src="./src/assets/revenue.png" alt="info" className="w-[100%]" />
+          <img src="/assets/revenue.png" alt="info" className="w-[100%]" />
         </div>
 
         {/* active users */}
@@ -41,12 +41,12 @@ function Analytics() {
           <div className="mt-4 px-6 py-2 flex justify-between items-center">
             <div className="flex gap-3 items-center">
               <h2>Active Users</h2>
-              <img src="./src/assets/Info icon.png" alt="info" />
+              <img src="/assets/Info icon.png" alt="info" />
             </div>
-            <img src="./src/assets/users.png" alt="users" />
+            <img src="/assets/users.png" alt="users" />
           </div>
           <img
-            src="./src/assets/active-users3.png"
+            src="/assets/active-users3.png"
             alt="activeUsers"
             className="w-[100%]"
           />
@@ -57,12 +57,12 @@ function Analytics() {
           <div className="mt-4 px-6 py-2 flex justify-between items-center">
             <div className="flex gap-3 items-center">
               <h2>Total Volume</h2>
-              <img src="./src/assets/Info icon.png" alt="info" />
+              <img src="/assets/Info icon.png" alt="info" />
             </div>
-            <img src="./src/assets/arrow-swap.png" alt="flow" />
+            <img src="/assets/arrow-swap.png" alt="flow" />
           </div>
           <img
-            src="./src/assets/totalVolume.png"
+            src="/assets/totalVolume.png"
             alt="info"
             className="w-[100%]"
           />
