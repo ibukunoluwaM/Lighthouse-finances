@@ -56,7 +56,7 @@ function LearnDetails() {
             className=" w-[35px] h-[35px] bg-white p-2 rounded-md cursor-pointer"
             onClick={handleGoBack}
           >
-            <img src="..//assets/arrow-left-button.png" alt="" />
+            <img src="/assets/arrow-left-button.png" alt="" />
           </div>
           <div className="w-[100%] flex items-center justify-between gap-3">
             <div className="flex-1 flex gap-3">
@@ -175,7 +175,7 @@ function LearnDetails() {
             <img
               src={
                 selectedCourse.status === "Unlisted"
-                  ? "..//assets/blacklist.png"
+                  ? "/assets/blacklist.png"
                   : selectedCourse.img
               }
               alt="course thumbnail"

@@ -27,44 +27,44 @@ function Sidebar() {
     {
       label: "Dashboard",
       path: "dashboard",
-      img: "../..//assets/elements-1.png",
-      activeImg: "../..//assets/elements.png",
+      img: "/assets/elements-1.png",
+      activeImg: "/assets/elements.png",
     },
     {
       label: "Products",
       path: "products",
-      img: "../..//assets/list-unordered-2.png",
-      activeImg: "../..//assets/list-unordered2.png",
+      img: "/assets/list-unordered-2.png",
+      activeImg: "/assets/list-unordered2.png",
     },
     {
       label: "Customers",
       path: "customers",
-      img: "../..//assets/users.png",
-      activeImg: "../..//assets/users-1.png",
+      img: "/assets/users.png",
+      activeImg: "/assets/users-1.png",
     },
     {
       label: "Transactions",
       path: "transactions",
-      img: "../..//assets/arrow-swap.png",
-      activeImg: "../..//assets/arrow-swap2.png",
+      img: "/assets/arrow-swap.png",
+      activeImg: "/assets/arrow-swap2.png",
     },
     {
       label: "Analytics",
       path: "analytics",
-      img: "../..//assets/procent.png",
-      activeImg: "../..//assets/chartline2.png",
+      img: "/assets/procent.png",
+      activeImg: "/assets/chartline2.png",
     },
     {
       label: "Team Management",
       path: "team-management",
-      img: "../..//assets/user-square.png",
-      activeImg: "../..//assets/user-square2.png",
+      img: "/assets/user-square.png",
+      activeImg: "/assets/user-square2.png",
     },
     {
       label: "Settings",
       path: "settings",
-      img: "../..//assets/gear.png",
-      activeImg: "../..//assets/gear (1).png",
+      img: "/assets/gear.png",
+      activeImg: "/assets/gear (1).png",
     },
   ];
 
@@ -72,57 +72,57 @@ function Sidebar() {
     {
       label: "Dashboard",
       path: "dashboard",
-      img: "../..//assets/elements-1.png",
-      activeImg: "../..//assets/elements.png",
+      img: "/assets/elements-1.png",
+      activeImg: "/assets/elements.png",
     },
     {
       label: "Products",
       path: "products",
-      img: "../..//assets/list-unordered-2.png",
-      activeImg: "../..//assets/list-unordered2.png",
+      img: "/assets/list-unordered-2.png",
+      activeImg: "/assets/list-unordered2.png",
     },
     {
       label: "Customers",
       path: "customers",
-      img: "../..//assets/users.png",
-      activeImg: "../..//assets/users-1.png",
+      img: "/assets/users.png",
+      activeImg: "/assets/users-1.png",
     },
     {
       label: "Transactions",
       path: "transactions",
-      img: "../..//assets/arrow-swap.png",
-      activeImg: "..//assets/arrow-swap2.png",
+      img: "/assets/arrow-swap.png",
+      activeImg: "/assets/arrow-swap2.png",
     },
     {
       label: "Loans",
       path: "loans",
-      img: "../..//assets/procent.png",
-      activeImg: "../..//assets/percent.png",
+      img: "/assets/procent.png",
+      activeImg: "/assets/percent.png",
     },
     {
       label: "Learn",
       path: "learn",
-      img: "../..//assets/book-open.png",
-      activeImg: "../..//assets/book-open2.png",
+      img: "/assets/book-open.png",
+      activeImg: "/assets/book-open2.png",
     },
 
     {
       label: "Analytics",
       path: "analytics",
-      img: "../..//assets/chart-line.png",
-      activeImg: "../..//assets/chartline2.png",
+      img: "/assets/chart-line.png",
+      activeImg: "/assets/chartline2.png",
     },
     {
       label: "Team Management",
       path: "team-management",
-      img: "../..//assets/user-square.png",
-      activeImg: "../..//assets/user-square2.png",
+      img: "/assets/user-square.png",
+      activeImg: "/assets/user-square2.png",
     },
     {
       label: "Settings",
       path: "settings",
-      img: "../..//assets/gear.png",
-      activeImg: "../..//assets/gear (1).png",
+      img: "/assets/gear.png",
+      activeImg: "/assets/gear (1).png",
     },
   ];
 
@@ -158,12 +158,12 @@ function Sidebar() {
           onClick={handleClick}
         >
           <div>
-            <img src="../..//assets/Logo-blue.png" alt="logo" />
+            <img src="/assets/Logo-blue.png" alt="logo" />
             <p className="mt-[5px] text-sm text-left">{role}</p>
           </div>
           <div>
             <img
-              src="../..//assets/chevron-down.png"
+              src="/assets/chevron-down.png"
               alt="dropdown"
               className="cursor-pointer"
             />
@@ -191,7 +191,7 @@ function Sidebar() {
         {/* //search */}
         <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg">
           <img
-            src="../..//assets/leadingIcon.png"
+            src="/assets/leadingIcon.png"
             alt="search"
             className=""
           />
@@ -226,7 +226,7 @@ function Sidebar() {
             </NavLink>
           ))}
           <div className="absolute flex gap-4 text-sm bottom-[20px]">
-            <img src="../..//assets/log-out.png" alt="log-out" />
+            <img src="/assets/log-out.png" alt="log-out" />
             <Link to="/">Log Out</Link>
           </div>
         </aside>

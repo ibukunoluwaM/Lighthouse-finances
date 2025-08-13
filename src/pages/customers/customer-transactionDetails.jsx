@@ -37,7 +37,7 @@ function CustomerTransactionDetail() {
             className=" w-[35px] h-[35px] bg-white p-2 rounded-md cursor-pointer"
             onClick={handleGoBack}
           >
-            <img src="..//assets/arrow-left-button.png" alt="" />
+            <img src="/assets/arrow-left-button.png" alt="" />
           </div>
 
           <div className="flex flex-col">
@@ -62,7 +62,7 @@ function CustomerTransactionDetail() {
         </div>
         {/* hamburger show more */}
         <div className=" cursor-pointer flex justify-center items-center bg-white p-2 rounded-lg">
-          <img src="..//assets/more-horiz.png" alt="show-more" />
+          <img src="/assets/more-horiz.png" alt="show-more" />
         </div>
       </div>
 

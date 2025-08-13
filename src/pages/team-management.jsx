@@ -28,7 +28,7 @@ function TeamManagement() {
       twoFA: "Disabled",
       lastLogged: "Today",
       email: "morounke@lighthousecapital.ng",
-      img: "..//assets/menu-horiz.png",
+      img: "/assets/menu-horiz.png",
     },
 
     {
@@ -39,7 +39,7 @@ function TeamManagement() {
       twoFA: "Active",
       lastLogged: "Apr 9, 2025 8:15am",
       email: "timipre@lighthousecapital.ng",
-      img: "..//assets/menu-horiz.png",
+      img: "/assets/menu-horiz.png",
     },
 
     {
@@ -50,7 +50,7 @@ function TeamManagement() {
       twoFA: "Active",
       lastLogged: "Today",
       email: "aisha@lighthousecapital.ng",
-      img: "..//assets/menu-horiz.png",
+      img: "/assets/menu-horiz.png",
     },
 
     {
@@ -61,7 +61,7 @@ function TeamManagement() {
       twoFA: "Disabled",
       lastLogged: "Apr 6, 2025 9:15am",
       email: "werinipre@lighthousecapital.ng",
-      img: "..//assets/menu-horiz.png",
+      img: "/assets/menu-horiz.png",
     },
 
     {
@@ -72,7 +72,7 @@ function TeamManagement() {
       twoFA: "-",
       lastLogged: "-",
       email: "adanma@lighthousecapital.ng",
-      img: "..//assets/menu-horiz.png",
+      img: "/assets/menu-horiz.png",
     },
   ];
 

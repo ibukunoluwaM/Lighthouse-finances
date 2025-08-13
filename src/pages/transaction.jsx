@@ -33,7 +33,7 @@ function Transaction() {
       <div className="flex gap-2">
         <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg border border-gray-400 ">
           <img
-            src="..//assets/leadingIcon.png"
+            src="/assets/leadingIcon.png"
             alt="search"
             className=""
           />

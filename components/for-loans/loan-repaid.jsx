@@ -90,7 +90,7 @@ function LoanRepaid() {
           className=" w-[35px] h-[35px] bg-white p-2 rounded-md cursor-pointer"
           onClick={() => navigate(-1)}
         >
-          <img src="..//assets/arrow-left-button.png" alt="" />
+          <img src="/assets/arrow-left-button.png" alt="" />
         </div>
         <div className="flex flex-col">
           <p className="text-xl font-medium">{selectedLoan.ref}</p>
@@ -761,13 +761,13 @@ function LoanRepaid() {
             <h2 className="flex justify-between items-center mb-6">
               <span className="font-medium">Add Product</span>
               <img
-                src="..//assets/close-icon.png"
+                src="/assets/close-icon.png"
                 alt="close"
                 className="cursor-pointer"
                 onClick={() => setIdentityCheck(false)}
               />
             </h2>
-            <img src="../..//assets/voterscard.png" alt="voter's card" />
+            <img src="/assets/voterscard.png" alt="voter's card" />
 
             <p className="text-center my-4 font-medium">ID_Omisore.jpeg</p>
           </div>

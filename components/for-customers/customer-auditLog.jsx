@@ -126,7 +126,7 @@ function CustomerAuditLog() {
       <div className="flex gap-3">
         <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg">
           <img
-            src="..//assets/leadingIcon.png"
+            src="/assets/leadingIcon.png"
             alt="search"
             className=""
           />
@@ -144,7 +144,7 @@ function CustomerAuditLog() {
         >
           <p>Performed By</p>
           <img
-            src="..//assets/plus-rec.png"
+            src="/assets/plus-rec.png"
             className="w-[15px] h-[15px]"
             alt="add"
           />
@@ -183,7 +183,7 @@ function CustomerAuditLog() {
         >
           <p>Status</p>
           <img
-            src="..//assets/plus-rec.png"
+            src="/assets/plus-rec.png"
             className="w-[15px] h-[15px]"
             alt="add"
           />
