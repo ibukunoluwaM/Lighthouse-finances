@@ -20,6 +20,10 @@
     padding: revert;
     border: revert;
   }
+
+  button {
+    color: black;
+  }
   /* body {
     @apply text-black bg-white;
   } */
