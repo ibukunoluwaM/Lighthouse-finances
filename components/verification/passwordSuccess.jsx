@@ -7,7 +7,7 @@ function PasswordSuccess() {
   return (
     <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-[#630219] to-[#084767]">
       <span>
-        <img src="/assets/Logo.png" alt="Logo" className="block mb-12" />
+        <h2 alt="Logo" className=" text-2xl text-[#ffffff] block mb-12">GrowMonie</h2>
       </span>
 
       <form onSubmit={(e)=> e.preventDefault()} className="max-w-lg bg-white p-8 mt-4 w-full rounded-lg text-center">

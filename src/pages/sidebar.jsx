@@ -3,15 +3,15 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { RoleContext } from "./roleContext";
 import { roles } from "./roleContext";
 import { NavLink } from "react-router-dom";
-import DashboardIcon  from "../assets/dashboard-1.svg?react";
-import  ProductIcon from "../assets/products.svg?react";
+import DashboardIcon from "../assets/dashboard-1.svg?react";
+import ProductIcon from "../assets/products.svg?react";
 import CustomersIcon from "../assets/users.svg?react";
-import TransactionIcons  from "../assets/transaction.svg?react";
+import TransactionIcons from "../assets/transaction.svg?react";
 import AnalyticsIcon from "../assets/analytics.svg?react";
-import  TeamMgtIcon from "../assets/teammgt.svg?react";
+import TeamMgtIcon from "../assets/teammgt.svg?react";
 import SettingsIcon from "../assets/settings.svg?react";
-import  LoansIcon from "../assets/loans.svg?react";
-import  LearnIcon  from "../assets/learn.svg?react";
+import LoansIcon from "../assets/loans.svg?react";
+import LearnIcon from "../assets/learn.svg?react";
 
 //for font-color
 function textColor(role) {
@@ -166,8 +166,10 @@ function Sidebar() {
           className="flex outline-none border-none items-center gap-2 w-[10rem] bg-white p-2 rounded-sm"
           onClick={handleClick}
         >
-          <div>
-            <img src="/assets/Logo-blue.png" alt="logo" />
+          <div className="">
+            <h2 alt="Logo" className=" text-lg text-[#630219]">
+              GrowMonie
+            </h2>
             <p className="mt-[5px] text-sm text-left">{role}</p>
           </div>
           <div>
@@ -224,7 +226,10 @@ function Sidebar() {
                 return (
                   <div key={index} className={getActiveClass(isActive)}>
                     {isActive ? (
-                      <nav.activeImg className="" style={{ fill: "#630219", color: "#630219" }} />
+                      <nav.activeImg
+                        className=""
+                        style={{ fill: "#630219", color: "#630219" }}
+                      />
                     ) : (
                       <img src={nav.img} alt="icon" />
                     )}
