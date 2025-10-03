@@ -21,7 +21,7 @@ function Verify() {
 
 
   return (
-    <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-[#0F8ECD] to-[#084767]">
+    <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-[#630219] to-[#084767]">
       <span>
         <img src="/assets/Logo.png" alt="Logo" className="block mb-12" />
       </span>
@@ -47,12 +47,12 @@ function Verify() {
         <button
           type="submit"
           onClick={handleSubmit}
-          className="mt-8 bg-[#0F8ECD] w-[100%] py-[10px] border-none cursor-pointer rounded-md text-white"
+          className="mt-8 bg-[#630219] w-[100%] py-[10px] border-none cursor-pointer rounded-md text-white"
         >
           Reset password
         </button>
 
-        <Link to="/" className="block text-center text-[#0F8ECD] mt-8">
+        <Link to="/" className="block text-center text-[#630219] mt-8">
           Back to Login
         </Link>
       </form>

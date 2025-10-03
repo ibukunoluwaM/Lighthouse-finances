@@ -3,13 +3,22 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { RoleContext } from "./roleContext";
 import { roles } from "./roleContext";
 import { NavLink } from "react-router-dom";
+import DashboardIcon  from "../assets/dashboard-1.svg?react";
+import  ProductIcon from "../assets/products.svg?react";
+import CustomersIcon from "../assets/users.svg?react";
+import TransactionIcons  from "../assets/transaction.svg?react";
+import AnalyticsIcon from "../assets/analytics.svg?react";
+import  TeamMgtIcon from "../assets/teammgt.svg?react";
+import SettingsIcon from "../assets/settings.svg?react";
+import  LoansIcon from "../assets/loans.svg?react";
+import  LearnIcon  from "../assets/learn.svg?react";
 
 //for font-color
 function textColor(role) {
   if (role === "Log Out") {
     return "text-red-500";
   } else if (role === "Add Role") {
-    return "text-[#0F8ECD]";
+    return "text-[#630219]";
   }
 }
 
@@ -28,43 +37,43 @@ function Sidebar() {
       label: "Dashboard",
       path: "dashboard",
       img: "/assets/elements-1.png",
-      activeImg: "/assets/elements.png",
+      activeImg: DashboardIcon,
     },
     {
       label: "Products",
       path: "products",
       img: "/assets/list-unordered-2.png",
-      activeImg: "/assets/list-unordered2.png",
+      activeImg: ProductIcon,
     },
     {
       label: "Customers",
       path: "customers",
       img: "/assets/users.png",
-      activeImg: "/assets/users-1.png",
+      activeImg: CustomersIcon,
     },
     {
       label: "Transactions",
       path: "transactions",
       img: "/assets/arrow-swap.png",
-      activeImg: "/assets/arrow-swap2.png",
+      activeImg: TransactionIcons,
     },
     {
       label: "Analytics",
       path: "analytics",
       img: "/assets/procent.png",
-      activeImg: "/assets/chartline2.png",
+      activeImg: AnalyticsIcon,
     },
     {
       label: "Team Management",
       path: "team-management",
       img: "/assets/user-square.png",
-      activeImg: "/assets/user-square2.png",
+      activeImg: TeamMgtIcon,
     },
     {
       label: "Settings",
       path: "settings",
       img: "/assets/gear.png",
-      activeImg: "/assets/gear (1).png",
+      activeImg: SettingsIcon,
     },
   ];
 
@@ -73,56 +82,56 @@ function Sidebar() {
       label: "Dashboard",
       path: "dashboard",
       img: "/assets/elements-1.png",
-      activeImg: "/assets/elements.png",
+      activeImg: DashboardIcon,
     },
     {
       label: "Products",
       path: "products",
       img: "/assets/list-unordered-2.png",
-      activeImg: "/assets/list-unordered2.png",
+      activeImg: ProductIcon,
     },
     {
       label: "Customers",
       path: "customers",
       img: "/assets/users.png",
-      activeImg: "/assets/users-1.png",
+      activeImg: CustomersIcon,
     },
     {
       label: "Transactions",
       path: "transactions",
       img: "/assets/arrow-swap.png",
-      activeImg: "/assets/arrow-swap2.png",
+      activeImg: TransactionIcons,
     },
     {
       label: "Loans",
       path: "loans",
       img: "/assets/procent.png",
-      activeImg: "/assets/percent.png",
+      activeImg: LoansIcon,
     },
     {
       label: "Learn",
       path: "learn",
       img: "/assets/book-open.png",
-      activeImg: "/assets/book-open2.png",
+      activeImg: LearnIcon,
     },
 
     {
       label: "Analytics",
       path: "analytics",
       img: "/assets/chart-line.png",
-      activeImg: "/assets/chartline2.png",
+      activeImg: AnalyticsIcon,
     },
     {
       label: "Team Management",
       path: "team-management",
       img: "/assets/user-square.png",
-      activeImg: "/assets/user-square2.png",
+      activeImg: TeamMgtIcon,
     },
     {
       label: "Settings",
       path: "settings",
       img: "/assets/gear.png",
-      activeImg: "/assets/gear (1).png",
+      activeImg: SettingsIcon,
     },
   ];
 
@@ -144,7 +153,7 @@ function Sidebar() {
 
   function getActiveClass(isActive) {
     let base = "flex my-10 gap-4 items-center text-sm ";
-    let active = "bg-white border-l-[2px] border-[#0F8ECD] rounded-md p-3";
+    let active = "bg-white border-l-[2px] border-[#630219] rounded-md p-3";
     let notActive = "";
 
     return base + (isActive ? active : notActive);
@@ -152,7 +161,7 @@ function Sidebar() {
 
   return (
     <div className="">
-      <header className="relative bg-[#0F8ECD] px-4 py-[30px] flex justify-between items-center">
+      <header className="relative bg-[#630219] px-4 py-[30px] flex justify-between items-center">
         <button
           className="flex outline-none border-none items-center gap-2 w-[10rem] bg-white p-2 rounded-sm"
           onClick={handleClick}
@@ -190,11 +199,7 @@ function Sidebar() {
 
         {/* //search */}
         <label className="flex items-center bg-white p-2 w-[21rem] rounded-lg">
-          <img
-            src="/assets/leadingIcon.png"
-            alt="search"
-            className=""
-          />
+          <img src="/assets/leadingIcon.png" alt="search" className="" />
           <input
             type="search"
             className="bg-transparent w-[100%] border-none outline-none pl-[4px]"
@@ -218,7 +223,11 @@ function Sidebar() {
               {function ({ isActive }) {
                 return (
                   <div key={index} className={getActiveClass(isActive)}>
-                    <img src={isActive ? nav.activeImg : nav.img} alt="icon" />
+                    {isActive ? (
+                      <nav.activeImg className="" style={{ fill: "#630219", color: "#630219" }} />
+                    ) : (
+                      <img src={nav.img} alt="icon" />
+                    )}
                     <span>{nav.label}</span>
                   </div>
                 );

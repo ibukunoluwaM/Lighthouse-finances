@@ -5,6 +5,9 @@ import StatFinance from "./stat-finance";
 import StatCapital from "./stat-capital";
 import { StatContext } from "./statContext";
 import { useNavigate } from "react-router-dom";
+import ActiveUsersChart from "./activeUserGraph";
+import ActiveCapitalUsersChart from "./capitalMgt";
+import ActiveAsssetUsersChart from "./assetsMgt";
 
 function getStatusClass(status) {
   if (status === "Failed") {
@@ -46,46 +49,34 @@ function GridBody() {
           {/* determines whch card content to show */}
           {/* for all stats */}
           {statistics === "All stats" && (
-            <img
-              src="/assets/card content.png"
-              alt="card"
-              className="w-[100%]"
-            />
+            // <img
+            //   src="/assets/card content.png"
+            //   alt="card"
+            //   className="w-[100%]"
+            // />
+            <ActiveUsersChart />
           )}
           {/* for Finance */}
 
-          {statistics === "Finance" && (
-            <img
-              src="/assets/card content-loan.png"
-              alt="card"
-              className="w-[100%]"
-            />
-          )}
+          {statistics === "Finance" && <ActiveUsersChart />}
           {/* for Capital */}
 
-          {statistics === "Capital" && (
-            <img
-              src="/assets/card content-capital.png"
-              alt="card"
-              className="w-[100%]"
-            />
-          )}
+          {statistics === "Capital" && <ActiveCapitalUsersChart />}
           {/* for assets */}
 
-          {statistics === "Asset Management" && (
-            <img
-              src="/assets/card content-assets.png"
-              alt="card"
-              className="w-[100%]"
-            />
-          )}
+          {statistics === "Asset Management" && <ActiveAsssetUsersChart />}
         </div>
 
         {/* table */}
         <div className="bg-white rounded-md px-4 py-2 text-sm">
           <h2 className="flex justify-between my-3">
             <span className="font-bold">Recent Transactions</span>
-            <span className="text-[#0F8ECD] text-sm cursor-pointer" onClick={()=> naviagte("/transactions")}>See all</span>
+            <span
+              className="text-[#630219] text-sm cursor-pointer"
+              onClick={() => naviagte("/transactions")}
+            >
+              See all
+            </span>
           </h2>
           <table className="min-w-full bg-white rounded-lg overflow-hidden">
             <thead className=" text-left text-gray-700">
@@ -130,7 +121,12 @@ function GridBody() {
           <div className="mt-6 bg-white rounded-lg py-2 px-4">
             <h2 className="flex justify-between items-center my-3">
               <span className="font-bold text-lg">Upcoming Repayments</span>
-              <span className="cursor-pointer text-[#0F8ECD] text-sm" onClick={()=> naviagte("/loans")}>See all</span>
+              <span
+                className="cursor-pointer text-[#630219] text-sm"
+                onClick={() => naviagte("/loans")}
+              >
+                See all
+              </span>
             </h2>
 
             <table className="bg-white rounded-lg">
@@ -144,7 +140,10 @@ function GridBody() {
                 <tbody key={index} className="text-gray-600 cursor-pointer">
                   <tr className="border-t border-t-gray-300">
                     <td className="flex flex-col">
-                      <span className="text-sm py-1 text-black underline" onClick={()=>naviagte("/customers/1")}>
+                      <span
+                        className="text-sm py-1 text-black underline"
+                        onClick={() => naviagte("/customers/1")}
+                      >
                         {t.name}
                       </span>
                       <span className="text-xs">{t.date}</span>

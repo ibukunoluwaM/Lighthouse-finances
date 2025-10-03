@@ -38,7 +38,7 @@ function Settings() {
 
           <div className="flex items-center gap-4 my-3 cursor-pointer">
             <img src="/assets/image.png" alt="" />
-            <span className="text-[#0F8ECD] bg-[rgba(15,142,205,0.1)] p-1 text-sm rounded-full">
+            <span className="text-[#630219] bg-[rgba(15,142,205,0.1)] p-1 text-sm rounded-full">
               Upload Photo
             </span>
           </div>
@@ -81,7 +81,7 @@ function Settings() {
           </p>
 
           <hr className="my-4 border border-gray-200" />
-          <button className="bg-[#0F8ECD] text-white border-none p-4 rounded-lg cursor-pointer">
+          <button className="bg-[#630219] text-white border-none p-4 rounded-lg cursor-pointer">
             Update details
           </button>
         </div>
@@ -101,7 +101,7 @@ function Settings() {
             <p className="text-[#666666] text-sm">
               You have never changed your password
             </p>
-            <button className="bg-[#0F8ECD] mt-3 text-white border-none p-3 rounded-lg cursor-pointer">
+            <button className="bg-[#630219] mt-3 text-white border-none p-3 rounded-lg cursor-pointer">
               Change password
             </button>
           </div>
@@ -150,7 +150,7 @@ function Settings() {
                       <img src="/assets/laptop.png" alt="" />
 
                       <div className="flex-1 text-sm">
-                        <p className="mb-3 text-[#0F8ECD] ">Firefox on windows  <span className="bg-[#F4F3FF] text-[#5925DC] p-2 rounded-full text-xs">This device</span></p>
+                        <p className="mb-3 text-[#630219] ">Firefox on windows  <span className="bg-[#F4F3FF] text-[#5925DC] p-2 rounded-full text-xs">This device</span></p>
                         <p className="text-[#666666]">Today at 6:54am</p>
                         <p className="text-[#666666]">Lagos (Lagos), Nigeria</p>
                       </div>
@@ -164,7 +164,7 @@ function Settings() {
                       <img src="/assets/laptop.png" alt="" />
 
                       <div className="flex-1 text-sm">
-                        <p className="mb-3 text-[#0F8ECD] ">Chrome on Mac </p>
+                        <p className="mb-3 text-[#630219] ">Chrome on Mac </p>
                         <p className="text-[#666666]">Apr 6, 2025 9:13 AM</p>
                         <p className="text-[#666666]">Lagos (Lagos), Nigeria</p>
                       </div>
@@ -172,7 +172,7 @@ function Settings() {
                       <button onClick={()=>navigate("/")} className=" cursor-pointer p-2 border-none rounded-md bg-[#F2F2F2]">Log out</button>
                     </div>
                                         <hr className="my-4 border border-gray-200" />
-<button onClick={()=>navigate("/")} className="cursor-pointer text-white bg-[#E94A3F] p-3 border-none rounded-md">Log out all devices</button>
+<button onClick={()=>navigate("/")} className="cursor-pointer text-white bg-[#914c4e] p-3 border-none rounded-md">Log out all devices</button>
         </div>
       )}
     </div>

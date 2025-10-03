@@ -157,7 +157,7 @@ function TeamManagement() {
               <LastLoggedIn />
             </div>
 
-            <button className="cursor-pointer bg-[#0F8ECD] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
+            <button className="cursor-pointer bg-[#630219] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
               <span onClick={() => setAddMember(true)}>Add Member</span>
               <img src="/assets/white-plus.png" alt="add" />
             </button>
@@ -312,7 +312,7 @@ function TeamManagement() {
                             <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                               Cancel
                             </button>
-                            <button className="flex-1 py-2 text-white bg-[#0F8ECD] border-none rounded-md cursor-pointer">
+                            <button className="flex-1 py-2 text-white bg-[#630219] border-none rounded-md cursor-pointer">
                               Save
                             </button>
                           </div>
@@ -382,7 +382,7 @@ function TeamManagement() {
                   <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                     Cancel
                   </button>
-                  <button className="flex-1 py-2 text-white bg-[#0F8ECD] border-none rounded-md cursor-pointer">
+                  <button className="flex-1 py-2 text-white bg-[#630219] border-none rounded-md cursor-pointer">
                     Save
                   </button>
                 </div>
@@ -421,7 +421,7 @@ function TeamManagement() {
                   <button className="flex-1 py-3 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                     Cancel
                   </button>
-                  <button className="flex-1 py-3 text-white bg-[#E94A3F] border-none rounded-md cursor-pointer">
+                  <button className="flex-1 py-3 text-white bg-[#914c4e] border-none rounded-md cursor-pointer">
                     Save
                   </button>
                 </div>

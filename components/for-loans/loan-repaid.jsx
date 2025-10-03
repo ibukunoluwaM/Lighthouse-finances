@@ -110,13 +110,13 @@ function LoanRepaid() {
         {selectedLoan.status === "On hold" && (
           <div className="ml-auto flex gap-2">
             <button
-              className="border-none bg-[#0F8ECD] p-3 text-white rounded-md cursor-pointer"
+              className="border-none bg-[#630219] p-3 text-white rounded-md cursor-pointer"
               onClick={() => setApprove(true)}
             >
               Accept
             </button>
             <button
-              className="border-none bg-[#E94A3F] p-3 text-white rounded-md cursor-pointer"
+              className="border-none bg-[#914c4e] p-3 text-white rounded-md cursor-pointer"
               onClick={() => setReject(true)}
             >
               Reject
@@ -127,7 +127,7 @@ function LoanRepaid() {
         {selectedLoan.status === "Awaiting" && (
           <div className="ml-auto flex gap-2">
             <button
-              className="border-none bg-[#E94A3F] p-3 text-white rounded-md cursor-pointer"
+              className="border-none bg-[#914c4e] p-3 text-white rounded-md cursor-pointer"
               onClick={() => setReject(true)}
             >
               Reject
@@ -144,7 +144,7 @@ function LoanRepaid() {
               Disburse
             </button>
             <button
-              className="border-none bg-[#E94A3F] p-3 text-white rounded-md cursor-pointer"
+              className="border-none bg-[#914c4e] p-3 text-white rounded-md cursor-pointer"
               onClick={() => setReject(true)}
             >
               Reject
@@ -196,7 +196,7 @@ function LoanRepaid() {
               <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                 Cancel
               </button>
-              <button className="flex-1 py-2 text-white bg-[#E94A3F] border-none rounded-md cursor-pointer">
+              <button className="flex-1 py-2 text-white bg-[#914c4e] border-none rounded-md cursor-pointer">
                 Reject Application
               </button>
             </div>
@@ -288,7 +288,7 @@ function LoanRepaid() {
               <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                 Cancel
               </button>
-              <button className="flex-1 py-2 text-white bg-[#0F8ECD] border-none rounded-md cursor-pointer">
+              <button className="flex-1 py-2 text-white bg-[#630219] border-none rounded-md cursor-pointer">
                 Save
               </button>
             </div>
@@ -341,7 +341,7 @@ function LoanRepaid() {
               <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                 Cancel
               </button>
-              <button className="flex-1 py-2 text-white bg-[#0F8ECD] border-none rounded-md cursor-pointer">
+              <button className="flex-1 py-2 text-white bg-[#630219] border-none rounded-md cursor-pointer">
                 Save
               </button>
             </div>
@@ -548,8 +548,8 @@ function LoanRepaid() {
             <h2>Credit Check</h2>
 
             <p className="text-sm">
-              <span className="mr-2 text-[#0F8ECD]">Accept</span>
-              <span className="text-[#E94A3F]">Reject</span>
+              <span className="mr-2 text-[#630219]">Accept</span>
+              <span className="text-[#914c4e]">Reject</span>
             </p>
           </div>
 
@@ -690,7 +690,7 @@ function LoanRepaid() {
               ></textarea>
 
               <div className="flex">
-                <button className="ml-auto px-4 py-2 bg-[#0F8ECD] border-none text-white rounded">
+                <button className="ml-auto px-4 py-2 bg-[#630219] border-none text-white rounded">
                   Post
                 </button>
               </div>
@@ -704,7 +704,7 @@ function LoanRepaid() {
           <div className="flex justify-between">
             <h3 className="text-sm font-bold">Repayment Schedule</h3>
             <p className="cursor-pointer">
-              <span className="mr-2 text-[#0F8ECD]">Add Entry</span>
+              <span className="mr-2 text-[#630219]">Add Entry</span>
               <span>Download</span>
             </p>
           </div>

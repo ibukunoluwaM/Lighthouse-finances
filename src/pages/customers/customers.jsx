@@ -22,7 +22,7 @@ import { customerDetails } from "../../../components/for-customers/customers-arr
     } else if (status === "DCS" || status==="Individual") {
       return "bg-[#EFF8FF] text-[#175CD3]";
     } else if (status === "Active" || status==="On hold") {
-      return "text-[#0F8ECD] bg-[rgba(15,142,205,0.1)]";
+      return "text-[#630219] bg-[rgba(15,142,205,0.1)]";
     } else if(status==="Awaiting"|| status==="Pending") {
       return "bg-[#FFFAEB] text-[#B54708]"
     } else if (status==="Repaid") {
@@ -45,7 +45,7 @@ function Customers() {
       {/* heading part */}
       <div className="flex justify-between items-center">
         <h2 className="text-2xl my-6 font-bold">Customers</h2>
-        <button className="cursor-pointer bg-[#0F8ECD] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
+        <button className="cursor-pointer bg-[#630219] border-none outline-none flex p-3 rounded-md text-white items-center gap-2 text-sm tracking-wide">
           <span>Export</span>
           <img src="/assets/import.png" alt="import" />
         </button>

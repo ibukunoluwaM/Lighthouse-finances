@@ -30,7 +30,7 @@ export default function StatFinance() {
         <span className="font-bold text-sm">
           Loan Subscribers <img src="/assets/Info-icon.png" alt="" />
         </span>
-        <span className="text-[#0F8ECD] text-sm">
+        <span className="text-[#630219] text-sm">
           <img src="/assets/file-text.png" alt="" />
         </span>
       </h2>

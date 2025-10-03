@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function PasswordSuccess() {
     let navigate = useNavigate();
   return (
-    <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-[#0F8ECD] to-[#084767]">
+    <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-[#630219] to-[#084767]">
       <span>
         <img src="/assets/Logo.png" alt="Logo" className="block mb-12" />
       </span>
@@ -25,7 +25,7 @@ function PasswordSuccess() {
               <button
           type="submit"
           onClick={()=>navigate("/")}
-          className="mt-8 bg-[#0F8ECD] w-[100%] py-[10px] border-none cursor-pointer rounded-md text-white"
+          className="mt-8 bg-[#630219] w-[100%] py-[10px] border-none cursor-pointer rounded-md text-white"
         >
             Go to Login</button>
       </form>

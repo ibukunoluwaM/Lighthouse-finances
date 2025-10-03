@@ -17,7 +17,7 @@ function CustomerDetailPersonal({ selectedCustomer }) {
       <div className="flex justify-between">
         <h3 className="font-bold">Personal Information</h3>
         <span className="flex gap-2 cursor-pointer" onClick={openModalForm}>
-          <p className="text-sm text-[#0F8ECD] items-center">Edit</p>
+          <p className="text-sm text-[#630219] items-center">Edit</p>
           <img
             src="/assets/edit-3.png"
             className="w-[20px] h-[20px]"
@@ -100,7 +100,7 @@ function CustomerDetailPersonal({ selectedCustomer }) {
 
             <div className="flex justify-between gap-2 " onClick={closeForm}>
                 <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">Cancel</button>
-                <button className="flex-1 py-2 text-white bg-[#0F8ECD] border-none rounded-md cursor-pointer">Save</button>
+                <button className="flex-1 py-2 text-white bg-[#630219] border-none rounded-md cursor-pointer">Save</button>
 
             </div>
           </form>

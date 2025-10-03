@@ -79,8 +79,8 @@ function LearnDetails() {
         <button
           className={`cursor-pointer border-none rounded-lg p-3  text-white ${
             selectedCourse.status === "Unlisted"
-              ? "bg-[#0F8ECD]"
-              : "bg-[#E94A3F]"
+              ? "bg-[#630219]"
+              : "bg-[#914c4e]"
           }`}
           onClick={() => setConfirmDelete(true)}
         >
@@ -97,7 +97,7 @@ function LearnDetails() {
               className="flex gap-2 cursor-pointer"
               onClick={() => setOpenEdit(true)}
             >
-              <p className="text-sm text-[#0F8ECD] items-center">Edit</p>
+              <p className="text-sm text-[#630219] items-center">Edit</p>
               <img
                 src="/assets/edit-3.png"
                 className="w-[20px] h-[20px]"
@@ -160,7 +160,7 @@ function LearnDetails() {
           <div className="flex justify-between">
             <h3 className="font-bold">Course Thumbnail</h3>
             <span className="flex gap-2 cursor-pointer">
-              <p className="text-sm text-[#0F8ECD] items-center">
+              <p className="text-sm text-[#630219] items-center">
                 Change photo
               </p>
               <img
@@ -193,7 +193,7 @@ function LearnDetails() {
             className="flex gap-2 cursor-pointer"
             onClick={() => setAddLesson(true)}
           >
-            <p className="text-sm text-[#0F8ECD] items-center">Add lessons</p>
+            <p className="text-sm text-[#630219] items-center">Add lessons</p>
             <img
               src="/assets/plus-blue.png"
               alt="add"
@@ -286,7 +286,7 @@ function LearnDetails() {
               <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                 Cancel
               </button>
-              <button className="flex-1 py-2 text-white bg-[#0F8ECD] border-none rounded-md cursor-pointer">
+              <button className="flex-1 py-2 text-white bg-[#630219] border-none rounded-md cursor-pointer">
                 Save
               </button>
             </div>
@@ -339,7 +339,7 @@ function LearnDetails() {
               <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                 Cancel
               </button>
-              <button className="flex-1 py-2 text-white bg-[#0F8ECD] border-none rounded-md cursor-pointer">
+              <button className="flex-1 py-2 text-white bg-[#630219] border-none rounded-md cursor-pointer">
                 Save
               </button>
             </div>
@@ -378,8 +378,8 @@ function LearnDetails() {
               <button
                 className={`flex-1 py-3 text-white border-none rounded-md cursor-pointer ${
                   selectedCourse.status === "Unlisted"
-                    ? "bg-[#0F8ECD]"
-                    : "bg-[#E94A3F]"
+                    ? "bg-[#630219]"
+                    : "bg-[#914c4e]"
                 }`}
               >
                 {selectedCourse.status === "Unlisted"

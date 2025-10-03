@@ -46,9 +46,9 @@ export default function Example() {
         {/* design buttons */}
         <button
           onClick={handleClick}
-          className="flex items-center py-2 px-4 gap-2 rounded-lg bg-[#0F8ECD1A] border-none cursor-pointer"
+          className="flex items-center py-2 px-4 gap-2 rounded-lg bg-[#6302191A] border-none cursor-pointer"
         >
-          <span className="text-[#0F8ECD]">{statistics}</span>
+          <span className="text-[#630219]">{statistics}</span>
           <img src="/assets/chevron-down (1).png" alt="icon" />
         </button>
 
@@ -59,7 +59,7 @@ export default function Example() {
                 key={index}
                 onClick={() => handleSelect(stat)}
                 className={`flex justify-between text-xs list-none mb-3 cursor-pointer ${
-                  statistics === stat ? "text-[#0F8ECD]" : "text-black"
+                  statistics === stat ? "text-[#630219]" : "text-black"
                 }`}
               >
                 <span> {stat}</span>
@@ -77,9 +77,9 @@ export default function Example() {
         <div className="relative">
           <button
             onClick={handleClickForTime}
-            className="flex items-center py-2 px-4 gap-2 rounded-lg bg-[#0F8ECD1A] border-none cursor-pointer"
+            className="flex items-center py-2 px-4 gap-2 rounded-lg bg-[#6302191A] border-none cursor-pointer"
           >
-            <span className="text-[#0F8ECD]">{selectedTime}</span>
+            <span className="text-[#630219]">{selectedTime}</span>
             <img src="/assets/chevron-down (1).png" alt="icon" />
           </button>
 
@@ -90,7 +90,7 @@ export default function Example() {
                   key={index}
                   onClick={() => handleSelectForTime(t)}
                   className={`flex justify-between text-xs list-none mb-3 cursor-pointer
-                   ${selectedTime === t ? "text-[#0F8ECD]" : "text-black"}`}
+                   ${selectedTime === t ? "text-[#630219]" : "text-black"}`}
                 >
                   <span className="mr-2"> {t}</span>
                   {selectedTime === t && (

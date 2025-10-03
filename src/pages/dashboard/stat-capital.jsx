@@ -47,7 +47,7 @@ export default function StatCapital() {
         <span className="font-bold text-sm">
           Top Securities <img src="/assets/Info-icon.png" alt="" />
         </span>
-        <span className="text-[#0F8ECD] text-sm">
+        <span className="text-[#630219] text-sm">
           <img src="/assets/chart-line.png" alt="" />
         </span>
       </h2>

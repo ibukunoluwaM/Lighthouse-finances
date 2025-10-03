@@ -444,7 +444,7 @@ function CustomerAuditLog() {
 
             <hr className="my-6 border border-gray-200" />
             <button
-              className="w-[100%] my-2 py-3 bg-[#E94A3F] border-none rounded-md cursor-pointer text-white"
+              className="w-[100%] my-2 py-3 bg-[#914c4e] border-none rounded-md cursor-pointer text-white"
               onClick={handleBlackList}
             >
               Blacklist Device
@@ -507,7 +507,7 @@ function CustomerAuditLog() {
               <button className="flex-1 py-2 bg-[#F2F2F2] border-none rounded-md cursor-pointer">
                 Cancel
               </button>
-              <button className="flex-1 py-2 text-white bg-[#E94A3F] border-none rounded-md cursor-pointer">
+              <button className="flex-1 py-2 text-white bg-[#914c4e] border-none rounded-md cursor-pointer">
                 Save
               </button>
             </div>
